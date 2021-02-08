@@ -1,0 +1,49 @@
+* {
+  margin: 0 auto;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25vh;
+}
+
+.input_field {
+  height: 30px;
+  width: 280px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 10px solid rgb(80, 10, 10);
+}
+
+#format_options {
+  height: 50px;
+  width: 300px;
+  border: 10px solid rgba(80, 10, 10);
+}
+
+p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 18px;
+  color: rgb(15, 15, 15);
+}
+
+#output_generator {
+  cursor: pointer;
+  margin-top: 10px;
+  height: 50px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 10px solid rgb(80, 10, 10);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 18px;
+  color: rgb(80, 10, 10);
+}
+
+#output_field {
+  margin-top: 10px;
+  width: 280px;
+  height: 30px;
+  text-align: center;
+  border: 10px solid rgba(80, 10, 10);
+}
