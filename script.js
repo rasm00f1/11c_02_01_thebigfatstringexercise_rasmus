@@ -25,6 +25,8 @@ function generateOutput() {
     console.log("Option 2");
     option2();
   } else if (formatOption.value === "Option_3") {
+    console.log("Option 3");
+    option3();
   } else if (formatOption.value === "Option_4") {
   } else if (formatOption.value === "Option_5") {
   } else if (formatOption.value === "Option_6") {
@@ -48,10 +50,21 @@ function option2() {
   displayOutput2();
 }
 
+function option3() {
+  firstSpace = inputString.indexOf(" ");
+  firstLetter = inputString.substring(0, firstSpace).length;
+
+  displayOutput3();
+}
+
 function displayOutput1() {
   result.innerHTML = `${firstLetter}` + `${rest}`;
 }
 
 function displayOutput2() {
   result.innerHTML = `${firstLetter}`;
+}
+
+function displayOutput3() {
+  result.innerHTML = firstLetter;
 }
